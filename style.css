@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0% 25% 0% 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header{
+    background-color: lightgrey;
+    background-image: url(assets/background-dots.svg);
+    background-repeat: no-repeat;
+    background-size: 35% 90%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3%;
+}
+.header h1{
+    font-size: 1em;
+    flex: 1;
+    color: black;
+    align-self: center;
+}
+.header h2{
+    font-size: 2em;
+    flex: 1;
+    color: black;
+    align-self: center;
+}
+.header p{
+    font-size: 1em;
+    flex: 1;
+    color: black;
+    align-self: center;
+}
+#header-hr{
+    border-color: rgba(186, 12, 47, 1);
+    border-style: solid;
+    border-width: 4px 0 0 0;
+}
+.title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title h1{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: rgba(186, 12, 47, 1);
+}
+
+.title p{
+    font-size: 0.95em;
+    color: black;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.title a{
+    color: rgba(186, 12, 47, 1);
+}
+
+.title hr{
+    width: 75%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin: 2% 0;
+}
+
+.school{
+    position: relative;
+    padding: 0% 1% 0% 12%;
+    margin-left: 1.5%;
+}
+
+.school #header{
+    color: grey;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+
+}
+.school p b{
+    color: rgba(186, 12, 47, 1);
+}
+.name input[type="text"]{
+    width: 100%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+
+.corp input[type="text"]{
+    width: 100%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+
+.name{
+    position: absolute;
+    top: 1em;
+    left: 0;
+    margin-left: 7em;
+}
+
+.name p{
+    color: black;
+}
+
+.corp {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    margin-right: 7em;
+}
+.corp p{
+    color: black;
+}
+
+.address input[type="text"]{
+    width: 100%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+.address{
+    position: absolute;
+    bottom: 4em;
+    left: 0;
+    margin-left: 7em;
+}
+.address p{
+    color: black;
+}
+
+.state_code{
+    display: flex;
+    position: absolute;
+    bottom: 4em;
+    right: 0;
+    margin-right: 7em;
+    gap: 1em;
+}
+.state .zip{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.state_code select{
+    width: 6.5rem;
+    padding: 0.30rem;
+    border: 1px solid lightgrey;
+
+}
+
+.state_code .zip input[type="text"]{
+    width: 6.5rem;
+    padding: 0.25rem;
+}
+.state{
+    width: auto;
+    position: static;         
+    left: 0;
+}
+.state p{
+    color: black;
+    font-size: 12px;
+}
+.zip{
+    align-self: flex-end;
+    position: static;         
+    left: 0;
+}
+.zip p{
+    color: black;
+    font-size: 12px;
+}
+.school hr{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-left: 10em;
+}
+
+.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding: 0% 1% 0% 15%;
+}
+
+.Experience p{
+    align-self: flex-start;
+}
+.Experience p b{
+    color: rgba(186, 12, 47, 1);
+}
+.Experience .checkbox-group {
+    margin-top: 2%;
+    display: flex;
+    gap: 0.9em;
+    font-size: 1.5em;
+    align-self: flex-start;
+    
+}
+input[type="checkbox"] {
+  accent-color: red; 
+}
+.Experience .Years{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 2em;
+    align-self: flex-start;
+}
+
+.Years .years-input input[type="number"]{
+    width: 50%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+
+.subjects{
+    margin-top: 3%;
+    align-self: flex-start;
+}
+
+.subjects .circle-input {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    width: 150%;
+    margin-top: 3%;
+}
+
+.subjects input[type="radio"] {
+  accent-color: red; 
+}
+
+.Experience hr {
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin: 5% 0;
+    margin-right: 5em;
+    align-self: center;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 1% 0% 15%;
+    position: relative;
+    
+}
+.register input[type="email"]{
+    width: 115%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+    background-color: lightgrey;
+    color: grey;
+}
+.register .emails{
+    align-self: flex-start;
+    margin-bottom: 2%;
+}
+
+.register .emails #info{
+    font-size: 0.9em;
+    color: grey;
+    font-style: italic;
+}
+
+.register .emails p b{
+    color: rgba(186, 12, 47, 1);
+}
+
+.register .password{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    gap: 2em;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.register .password p b{
+    color: rgba(186, 12, 47, 1);
+}
+
+.register .password #requirements{
+    font-size: 0.9em;
+    color: grey;
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+.register .password .create-pass, .register .password .confirm-pass{
+    width: 40%;
+    position: relative; 
+}
+
+.register .password .confirm-pass{
+    right: 6em;
+}
+
+.register .password input[type="password"]{
+    width: 97%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+
+.register .password #toggle-pass{
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-40%);
+    background: none;
+    border: none;
+    color: lightgrey;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+.password .confirm-pass #toggle-confirm-pass{
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-40%);
+    background: none;
+    border: none;
+    color: lightgrey;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+.register input[type="text"]{ 
+    width: 115%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+.register hr{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin: 5% 0;
+    margin-right: 5em;
+    align-self: center;
+}
+
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.conclusion #line1, .conclusion #line2{
+    font-size: 1.4em;
+}
+
+.conclusion h1 span{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: grey;
+    font-size: 0.7em;
+}
+
+.conclusion h1{
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}   
+
+.conclusion button{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background-color: rgba(186, 12, 47, 1);
+    color: white;
+    border: none;
+    padding: 1% 3% 1% 3%;
+    font-size: 1em;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.conclusion #disclaimer{
+    font-size: 0.9em;
+}
+
+.conclusion hr{
+    width: 75%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin-top: 4%;
+    margin-bottom: -1%;
+}
+
+.smart-pay{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.smart-pay p{
+    font-size: 1em;
+    flex: 1;
+    color: black;
+    align-self: center;
+}
+.smart-pay img{
+    width: 15em;
+    align-self: center;
+}
+
+
+/* .school{
+    justify-items: center;
+    position: relative;
+    padding: 0% 1% 0% 12%;
+}
+
+.school #header{
+    color: grey;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+
+}
+.school p b{
+    color: rgba(186, 12, 47, 1);
+}
+.name_corp input[type="text"]{
+    width: 150%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+.name_corp{
+    display: flex;
+    flex-direction: row;
+    gap: 12.5em;
+    justify-self: flex-start;
+}
+
+.name p{
+    color: black;
+    font-weight: bold;
+}
+.corp p{
+    color: black;
+    font-weight: bold;
+}
+
+.address_state_code{
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    gap: 1rem;                
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.address input[type="text"]{
+    width: 150%;
+    height: 2em;
+    margin-top: 1%;
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+.address p{
+    color: black;
+    font-weight: bold;
+}
+.school select{
+    width: auto;             
+    border: 1px solid lightgrey;
+    font-size: 1em;
+}
+
+.state_code{
+    display: flex;
+    align-items: end;     
+    position: relative;
+}
+.state, .zip{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.state_code select{
+    width: 4.5rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+
+.state_code .zip input[type="text"]{
+    width: 6.5rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+.state{
+    width: auto;
+    position: static;         
+    left: 0;
+}
+.state p{
+    color: black;
+    font-weight: bold;
+}
+.zip{
+    align-self: flex-end;
+    position: static;         
+    left: 0;
+}
+.zip p{
+    color: black;
+    font-weight: bold;
+}
+.school hr{
+    width: 50%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    margin: 5% 0;
+    align-self: center;
+} */

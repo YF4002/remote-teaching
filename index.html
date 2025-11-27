@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teach Remotely</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Register for </h1>
+        <h2>TEACHING REMOTELY</h2>
+        <p>Professional Learning for P-12 Educators</p>
+    </div>
+     <hr id="header-hr">
+    <div class="title">
+        <h1>Continue In-Service Teacher Registration</h1>
+        <p><strong>Your email has been verified</strong> and you can now continue registering as an <br><strong><i>In-Service Teacher.</i></strong> Selected the wrong role? <a href="">Restart</a> with a different role.</p>
+        <hr>
+    </div>
+    <div class="school"> 
+        <p id="header"><b>*</b> indicates required form field</p>
+        <div class="name">
+            <p>School Name<b>＊</b></p>
+            <input type="text" name="school" placeholder="Start typing your school name...">
+        </div>
+        <div class="corp">
+            <p>School Corporation<b>＊</b></p>
+            <input type="text"  name="school" placeholder="Start typing your school corporation name...">
+        </div>
+
+        <div class="address">
+            <p>School Address<b>＊</b></p>
+            <input type="text" id="school" name="school" placeholder="123 Main St.">
+        </div>
+        <div class="state_code">
+            <div class="state">
+                <p>School State<b>＊</b></p>
+                <select id="state-select" name="state">
+                    <option value="">Please choose an option</option>
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
+                </select>
+            </div>
+            <div class="zip">
+                <p>School ZIP Code<b>＊</b></p>
+                <input type="text" maxlength="5" id="zip" name="zip" placeholder="12345">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="Experience">
+        <p>Grades Teaching this Year<b>＊</b></p>
+        <div class="checkbox-group">
+            <input type="checkbox" name="option1" value="value1">P<br>
+            <input type="checkbox" name="option2" value="value2">PK<br>
+            <input type="checkbox" name="option3" value="value3">K<br>
+            <input type="checkbox" name="option4" value="value4">1<br>
+            <input type="checkbox" name="option5" value="value5">2<br>
+            <input type="checkbox" name="option6" value="value6">3<br>
+            <input type="checkbox" name="option7" value="value7">4<br>
+            <input type="checkbox" name="option8" value="value8">5<br>
+            <input type="checkbox" name="option9" value="value9">6<br>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" name="option10" value="value10">7<br>
+            <input type="checkbox" name="option11" value="value11">8<br>
+            <input type="checkbox" name="option12" value="value12">9<br>
+            <input type="checkbox" name="option13" value="value13">10<br>
+            <input type="checkbox" name="option14" value="value14">11<br>
+            <input type="checkbox" name="option15" value="value15">12<br>
+            <input type="checkbox" name="option16" value="value16">Other<br>            
+        </div>
+        <div class="Years">
+            <div class="years-input">
+                <p>Years Teaching<b>＊</b></p>
+                <input type="number" id="quantity" name="quantity" min="0" max="100" step="1 + Years" value="1">
+            </div>
+            <div class="years-input">
+                <p>Years of Remote Teaching Experience<b>＊</b></p>
+                <input type="number" id="quantity-remote" name="quantity-remote" min="0" max="100" step="1 + Years" value="1">
+            </div>
+        </div>
+        <div class="subjects">
+            <p>Primary Subject<b>＊</b></p>
+            <div class="circle-input">
+                <input type="radio" id="science" name="subject" value="science">Science <br>
+                <input type="radio" id="math" name="subject" value="math">Math <br>
+                <input type="radio" id="engineering" name="subject" value="engineering">Engineering <br>
+                <input type="radio" id="technology" name="subject" value="technology">Technology <br>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="register">
+        <div class="emails">
+            <p>Email<b>＊</b></p>
+            <input type="email" id="email" name="email" placeholder="Type in your email" required>
+            <p id="info">your email address will serve as your username.</p>
+        </div>
+        <div class="password">
+            <div class="create-pass">
+                <p>Create a Password<b>＊</b></p>
+                <input type="password" id="pass" name="password" placeholder="Create a Password" required>
+                <div id="toggle-pass">SHOW</div>
+                <p id="requirements">Must be at least 6 characters.</p>
+            </div>
+            <div class="confirm-pass">
+                <p>Confirm Password<b>＊</b></p>
+                <input type="password" id="confirm" name="confirm-password" placeholder="Confirm Password" required>
+                <div id="toggle-confirm-pass">SHOW</div>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="conclusion">
+        <p id="line1">Gain access to <b>six</b> learning modules and earn</p>
+        <p id="line2">PGPs from Ball State University for a</p>
+        <h1><b>One-time payment of <span>$149</span> $99</b></h1> 
+        <button type="submit" id="register-btn">Continue To Payment <img src="assets/icon-external-link.svg" alt="link"></button>
+        <p id="disclaimer">You will be redirected to a new window where you can complete your purchase.</p>
+        <hr>
+    </div>
+    <div class="smart-pay">
+        <p>Payments processed by </p>
+        <img src="assets/logo-smartpay.svg" alt="Smart Pay Logo">
+    </div>
+</body>
+<script src="page.js"></script>
+</html>
+
+<!-- 
+<div class="school"> 
+        <p id="header"><b>*</b> indicates required form field</p>
+        <div class="name_corp">
+            <div class="name">
+                <p>School Name<b>＊</b></p>
+                <input type="text" name="school" placeholder="Start typing your school name...">
+            </div>
+            <div class="corp">
+                <p>School Corporation<b>＊</b></p>
+                <input type="text"  name="school" placeholder="Start typing your school corporation name...">
+            </div>
+        </div>
+        <div class="address_state_code">
+            <div class="address">
+                <p>School Address<b>＊</b></p>
+                <input type="text" id="school" name="school" placeholder="123 Main St.">
+            </div>
+            <div class="state_code">
+                <div class="state">
+                    <p>School State<b>＊</b></p>
+                    <select id="state-select" name="state">
+                        <option value="">--Please choose an option--</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AZ">AZ</option>
+                        <option value="AR">AR</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                    </select>
+                </div>
+            
+                <div class="zip">
+                    <p>School ZIP Code<b>＊</b></p>
+                    <input type="text" id="zip" name="zip" placeholder="12345">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div> -->
