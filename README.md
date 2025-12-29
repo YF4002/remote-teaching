@@ -4,6 +4,6 @@ Fun Side Project #6
 
 Live Demo: https://wispy-fog-f00e.yahyafofana00.workers.dev/
 
-<img width="874" height="831" alt="Image" src="https://github.com/user-attachments/assets/cb844478-858d-4c03-8032-38d72626539f" />
+<img width="868" height="844" alt="Image" src="https://github.com/user-attachments/assets/b72ad0b5-106d-4aa3-baa8-4f40864cfdfa" />
 
-<img width="728" height="667" alt="Image" src="https://github.com/user-attachments/assets/2c630c8d-ee2f-4e9a-a886-bfb0616e6df3" />
+<img width="881" height="644" alt="Image" src="https://github.com/user-attachments/assets/828f8e2c-afd6-4f82-a926-d4e8fa2ed026" />
